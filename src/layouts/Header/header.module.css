@@ -1,0 +1,30 @@
+.header_section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 8;
+    /* background-color: yellow; */
+    height: 100px;
+}
+
+.header_main{
+    background-color: #fff;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+    padding: 10px 0;
+}
+
+.header_main_wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+}
+
+.header_logo{
+    margin-right: 28px;
+}
+
+.header_logo_icon{
+    width: 148px;
+}
